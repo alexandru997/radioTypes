@@ -1,0 +1,45 @@
+.datepicker-modal {
+  position: relative;
+  top: 100px;
+  left: 600px;
+}
+
+.datepicker.default {
+  background-color: transparent;
+  margin-top: 30px;
+  margin-left: 120px;
+  width: 260px;
+  font-size: 16px;
+}
+.datepicker.default .datepicker-caption-item {
+  color: orange;
+  display: none;
+}
+.datepicker.default .datepicker-header {
+  display: none;
+}
+.datepicker .datepicker-viewport {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.datepicker.default .datepicker-header {
+  color: orange;
+}
+
+.datepicker.default .datepicker-scroll li {
+  color: orange;
+}
+
+.datepicker.default .datepicker-wheel {
+  border-top: 1px solid orange;
+  /* border: none; */
+  border-bottom: 1px solid orange;
+  /* border-bottom: 1px solid orange; */
+}
+
+.datepicker .datepicker-col-1 {
+  margin-left: -130px;
+}
